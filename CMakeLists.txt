@@ -1,0 +1,7 @@
+cmake_minimum_required (VERSION 2.6)
+project (cpptestsing)
+enable_testing()
+include_directories ("${PROJECT_SOURCE_DIR}/src")
+add_subdirectory("src")
+include_directories ("${PROJECT_SOURCE_DIR}/tests")
+add_subdirectory("tests")
